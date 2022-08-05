@@ -14,12 +14,13 @@ const Hero = () => {
           height={250}
           width={250}
           className=" rounded-full select-none"
+          alt="a picture of my face"
         ></Image>
       </div>
 
       <div className="py-4 text-center w-5/6">
         <h1 className="text-4xl py-8 font-sans">
-          Hi, I'm <span className="text-accentblue">Simon</span>.
+          Hi, I&apos;m <span className="text-accentblue">Simon</span>.
         </h1>
         <p className="text-xl">
           A Leipzig-based Junior Frontend Developer. <br />I am currently

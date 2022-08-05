@@ -30,6 +30,7 @@ const ProjectCard = ({
             layout="responsive"
             width="1920"
             height="1440"
+            alt="placeholder"
           ></Image>
         </div>
       </div>

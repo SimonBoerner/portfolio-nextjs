@@ -28,6 +28,7 @@ const Aboutme = () => {
         <a
           href="https://drive.google.com/file/d/1q2e7z8YrylyKkV3XqF6mTNo64fJugnag/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <button className="bg-red text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 align-middle">
             Download Resume

@@ -21,6 +21,7 @@ const Projects = () => {
                 layout="responsive"
                 className="rounded-t-xl"
                 objectFit="cover"
+                alt="picture of a kitchen"
               ></Image>
             </div>
             <div className="p-5">
@@ -35,6 +36,7 @@ const Projects = () => {
               <a
                 href="https://github.com/devhausleipzig/camp5-final-project"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="py-2 px-4 border-white border rounded-full">
                   Github
@@ -51,6 +53,7 @@ const Projects = () => {
                 layout="responsive"
                 className="rounded-t-xl"
                 objectFit="cover"
+                alt="image of a watering can"
               ></Image>
             </div>
             <div className="p-5">
@@ -66,6 +69,7 @@ const Projects = () => {
               <a
                 href="https://github.com/devhausleipzig/garden-share"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="py-2 px-4 border-white border rounded-full">
                   Github

@@ -9,13 +9,21 @@ const Contact = () => {
       <h1 className="absolute top-20 left-6 text-2xl text-white">[Contact]</h1>
 
       <div className="flex gap-9">
-        <a href="https://github.com/SimonBoerner" target="_blank">
+        <a
+          href="https://github.com/SimonBoerner"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiOutlineGithub
             size={80}
             className="hover:text-white transition-all duration-700"
           />
         </a>
-        <a href="https://linkedin.com/in/simon-boerner" target="_blank">
+        <a
+          href="https://linkedin.com/in/simon-boerner"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin
             size={80}
             className="hover:text-white transition-all duration-700"
