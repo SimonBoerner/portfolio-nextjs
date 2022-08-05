@@ -16,8 +16,11 @@ import {
 
 const Skillpage = () => {
   return (
-    <div className="relative min-h-screen flex flex-wrap gap-4 justify-center pt-32 pb-8">
-      <h1 className="absolute top-10 left-6 text-2xl">[SKILLS]</h1>
+    <div
+      id="skills"
+      className="relative min-h-screen flex flex-wrap gap-3 justify-center pt-40 pb-8 mx-auto snap-start"
+    >
+      <h1 className="absolute top-20 left-6 text-2xl">[SKILLS]</h1>
       <Skillcard icon={<SiHtml5 size={32} />} name={"HTML"} />
       <Skillcard icon={<SiCss3 size={32} />} name={"CSS"} />
       <Skillcard icon={<SiJavascript size={32} />} name={"JavaScript"} />
