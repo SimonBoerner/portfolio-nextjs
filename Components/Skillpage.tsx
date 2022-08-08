@@ -20,7 +20,7 @@ const Skillpage = () => {
       id="skills"
       className="relative bg-palette3 bg-opacity-20 min-h-screen flex flex-wrap gap-3 justify-center pt-40 pb-8 mx-auto snap-start"
     >
-      <h1 className="absolute top-20 left-6 text-2xl">[SKILLS]</h1>
+      <h1 className="absolute top-20 left-6 text-2xl">[Skills]</h1>
       <Skillcard icon={<SiHtml5 size={32} />} name={"HTML"} />
       <Skillcard icon={<SiCss3 size={32} />} name={"CSS"} />
       <Skillcard icon={<SiJavascript size={32} />} name={"JavaScript"} />

@@ -13,7 +13,7 @@ const Projects = () => {
       <h1 className="absolute top-20 left-6 text-2xl">[Projects]</h1>
       <div className="flex justify-center items-center flex-col h-1/2">
         {/* Card */}
-        <div className="rounded-xl border-white bg-white w-10/12 flex mb-5">
+        <div className="rounded-xl border-white bg-white w-10/12 flex mb-8">
           <div className="flex flex-col">
             <div className="relative rounded-t-xl w-full h-full">
               <Image
@@ -45,7 +45,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-xl border border-white bg-white w-10/12 flex mb-5">
+        <div className="rounded-xl bg-white w-10/12 flex mb-8">
           <div className="flex flex-col">
             <div className="relative rounded-t-xl w-full h-full">
               <Image

@@ -2,7 +2,7 @@ const Aboutme = () => {
   return (
     <div
       id="aboutme"
-      className="relative flex flex-col items-center justify-start pt-40 min-h-screen bg-palette2 bg-opacity-30 text-xl snap-start"
+      className="relative flex flex-col items-center justify-center pt-40 min-h-screen bg-palette2 bg-opacity-30 text-xl snap-start"
     >
       <h1 className="absolute top-20 left-6 text-2xl">[About Me]</h1>
       <p className="w-5/6">
