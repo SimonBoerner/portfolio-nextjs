@@ -10,7 +10,7 @@ const Navbar = () => {
     setIsOpen((prev) => !prev);
   };
   return (
-    <div className="fixed w-screen flex justify-between items-center px-4 border-b-2 border-black border-solid border-opacity-20 shadow-lg bg-white z-40">
+    <div className="fixed w-screen flex justify-between items-center px-4 border-b-2 border-black border-solid border-opacity-20 shadow-lg bg-white/90  backdrop-blur-xl z-40">
       {isOpen ? (
         <Sidebar closeModalHandler={sidebarHandler} open={isOpen} />
       ) : null}

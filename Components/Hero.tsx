@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="relative min-h-screen flex flex-col items-center justify-center drop-shadow-md"
+      className="bg-palette1 bg-opacity-20 relative min-h-screen flex flex-col items-center justify-center drop-shadow-md md:pt-20"
     >
       <div className="w-[250px] h-[250px]">
         <Image
@@ -13,13 +13,13 @@ const Hero = () => {
           layout="intrinsic"
           height={250}
           width={250}
-          className=" rounded-full select-none"
+          className="rounded-full select-none"
           alt="a picture of my face"
         ></Image>
       </div>
 
-      <div className="py-4 text-center w-5/6">
-        <h1 className="text-4xl py-8 font-sans">
+      <div className="py-10 text-center w-5/6">
+        <h1 className="text-4xl pb-8 font-sans">
           Hi, I&apos;m <span className="text-accentblue">Simon</span>.
         </h1>
         <p className="text-xl">

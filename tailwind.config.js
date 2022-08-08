@@ -5,7 +5,11 @@ module.exports = {
     "./Components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "box-pattern": "url('/public/patterns/pattern-boxes.svg')",
+      },
+    },
     fontFamily: {
       sans: ["Josefin Sans", "sans-serif"],
       PARAGRAPH: ["Josefin Slab", "serif"],
@@ -15,7 +19,12 @@ module.exports = {
       black: "#000",
       white: "#FFF",
       red: "#C1618E",
+      palette1: "#157698",
+      palette2: "#58A17D",
+      palette3: "#C6B148",
+      palette4: "#D16E34",
+      palette5: "#F0692B",
     },
   },
-  plugins: [],
+  plugins: [require("@beaubus/svg-patterns-for-tailwindcss")],
 };

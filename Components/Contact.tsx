@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-accentblue relative flex justify-center items-center"
+      className="min-h-screen bg-red bg-opacity-20 relative flex justify-center items-center"
     >
-      <h1 className="absolute top-20 left-6 text-2xl text-white">[Contact]</h1>
+      <h1 className="absolute top-20 left-6 text-2xl text-black">[Contact]</h1>
 
       <div className="flex gap-9">
         <a

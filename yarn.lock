@@ -17,6 +17,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@beaubus/svg-patterns-for-tailwindcss@^1.9.5":
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/@beaubus/svg-patterns-for-tailwindcss/-/svg-patterns-for-tailwindcss-1.9.5.tgz#20e016c8933f1272c5585387c084789a917addee"
+  integrity sha512-JqDxIAG5+8Xnegvq5HxkL+uixxTAxHkdOiQ336P05eBMiC0WKXhJyMBdfVO2VE+xrgqHEPtKSHEDtiqMuKbWGQ==
+
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.0.tgz#29f92c30bb3e771e4a2048c95fa6855392dfac4f"

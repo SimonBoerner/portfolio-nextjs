@@ -8,12 +8,12 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="relative min-h-screen bg-red pt-40 snap-start"
+      className="relative min-h-screen bg-palette4 bg-opacity-20 pt-40 snap-start"
     >
       <h1 className="absolute top-20 left-6 text-2xl">[Projects]</h1>
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center items-center flex-col h-1/2">
         {/* Card */}
-        <div className="rounded-xl border border-white w-10/12 flex mb-5">
+        <div className="rounded-xl border-white bg-white w-10/12 flex mb-5">
           <div className="flex flex-col">
             <div className="relative rounded-t-xl w-full h-full">
               <Image
@@ -38,14 +38,14 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="py-2 px-4 border-white border rounded-full">
-                  Github
+                <button className="py-2 px-4 border-palette2 border rounded-full">
+                  Find it on Github
                 </button>
               </a>
             </div>
           </div>
         </div>
-        <div className="rounded-xl border border-white w-10/12 flex mb-5">
+        <div className="rounded-xl border border-white bg-white w-10/12 flex mb-5">
           <div className="flex flex-col">
             <div className="relative rounded-t-xl w-full h-full">
               <Image
@@ -71,8 +71,8 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="py-2 px-4 border-white border rounded-full">
-                  Github
+                <button className="py-2 px-4 border-palette2 border rounded-full">
+                  Find it on Github
                 </button>
               </a>
             </div>
