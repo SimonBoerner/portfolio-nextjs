@@ -38,7 +38,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="py-2 px-4 border-palette2 border rounded-full">
+                <button className="pt-2 pb-1 px-4 border-palette2 border rounded-full">
                   Find it on Github
                 </button>
               </a>
@@ -71,7 +71,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="py-2 px-4 border-palette2 border rounded-full">
+                <button className="pt-2 pb-1 px-4 border-palette2 border rounded-full">
                   Find it on Github
                 </button>
               </a>
