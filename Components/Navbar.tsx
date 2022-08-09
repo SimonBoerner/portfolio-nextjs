@@ -3,14 +3,25 @@ import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import Sidebar from "./Sidebar";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const sidebarHandler = () => {
     setIsOpen((prev) => !prev);
   };
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   return (
-    <div className="fixed w-screen flex justify-between items-center px-4 border-b-2 border-black border-solid border-opacity-20 shadow-lg bg-white/90  backdrop-blur-xl z-40">
+    <div className="fixed w-screen flex justify-between items-center px-4 border-b-2 border-black border-solid border-opacity-20 shadow-lg bg-white/90 backdrop-blur-xl z-40">
+      <motion.div
+        className="fixed top-0 left-0 right-0 h-1 bg-accentblue origin-left"
+        style={{ scaleX }}
+      />
       {isOpen ? (
         <Sidebar closeModalHandler={sidebarHandler} open={isOpen} />
       ) : null}
