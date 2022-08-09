@@ -9,6 +9,9 @@ module.exports = {
       backgroundImage: {
         "box-pattern": "url('/public/patterns/pattern-boxes.svg')",
       },
+      screens: {
+        xs: "375px",
+      },
     },
     fontFamily: {
       sans: ["Josefin Sans", "sans-serif"],

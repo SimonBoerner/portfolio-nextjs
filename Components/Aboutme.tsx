@@ -1,4 +1,8 @@
+import { Popover, Transition } from "@headlessui/react";
+import { useState } from "react";
+
 const Aboutme = () => {
+  const [showLangOptions, setShowLangOptions] = useState(false);
   return (
     <div
       id="aboutme"
@@ -25,7 +29,45 @@ const Aboutme = () => {
         you want to know more about me, feel free to download my CV.
       </p>
       <div className="py-14">
-        <a
+        <Popover className="relative">
+          <Popover.Button
+            onClick={() =>
+              setShowLangOptions((showLangOptions) => !showLangOptions)
+            }
+            className="bg-red text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 align-middle mb-3"
+          >
+            DOWNLOAD CV
+          </Popover.Button>
+          <Transition
+            show={showLangOptions}
+            enter="transition-opacity duration-75"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="transition-opacity duration-150"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <Popover.Panel className="absolute z-10">
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://drive.google.com/file/d/1q2e7z8YrylyKkV3XqF6mTNo64fJugnag/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-palette2 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-56 mb-3"
+                >
+                  German Version
+                </a>
+                <a
+                  href="/engagement"
+                  className="bg-palette1 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-56"
+                >
+                  English Version
+                </a>
+              </div>
+            </Popover.Panel>
+          </Transition>
+        </Popover>
+        {/* <a
           href="https://drive.google.com/file/d/1q2e7z8YrylyKkV3XqF6mTNo64fJugnag/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
@@ -33,7 +75,7 @@ const Aboutme = () => {
           <button className="bg-red text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 align-middle">
             Download Resume
           </button>
-        </a>
+        </a> */}
       </div>
     </div>
   );
