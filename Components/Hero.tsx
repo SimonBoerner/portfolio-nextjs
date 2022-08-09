@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="bg-palette1 bg-opacity-20 relative min-h-screen flex flex-col items-center justify-center drop-shadow-md md:pt-20"
+      className="bg-palette1 bg-opacity-20 relative min-h-screen flex flex-col items-center justify-center drop-shadow-md "
     >
       <div className="w-[250px] h-[250px]">
         <Image
