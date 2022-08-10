@@ -33,22 +33,15 @@ const Aboutme = () => {
         </a>
         &nbsp;It was the perfect kickstart. There I learned the fundamental
         technologies and concepts of modern webdesign and got a good idea how to
-        use them. The technologies and tools we were learning are listed under
-        the&nbsp;
-        <a href="/#skills" className="underline">
-          "Skills"
-        </a>
-        &nbsp;page.
+        use them. The technologies and tools we were learning are listed on the
+        page below.
       </p>
       <br />
       <br />
 
       <p className="w-5/6 md:w-4/6">
         This is just the beginning of my coding journey. There is so much more
-        to learn! <br /> If you want to know more about me, you can&nbsp;
-        <a href="/#contact" className="underline">
-          find my CV here!
-        </a>
+        to learn! <br />
       </p>
     </div>
   );
