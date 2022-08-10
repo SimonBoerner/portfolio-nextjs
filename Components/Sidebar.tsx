@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -12,17 +13,31 @@ const Sidebar = ({ closeModalHandler, open }: CloseModalHandlerProps) => {
       onClick={closeModalHandler}
       className="fixed left-0 top-0 right-0 w-full h-screen bg-black/70 z-40"
     >
-      <div
-        className={
-          "w-2/4 fixed right-0 top-0 p-10 pt-20 h-screen bg-accentblue/70 backdrop-blur-md ease-in duration-1000 transition-all flex flex-col text-white text-2xl gap-8 z-30"
-        }
+      <motion.div
+        initial="closed"
+        animate="open"
+        className="fixed right-0 top-0 p-10 pt-20 h-screen bg-accentblue/70 backdrop-blur-md flex flex-col text-white text-2xl gap-8 z-30"
+        variants={{
+          closed: {
+            width: "0%",
+            transition: {
+              delay: 0,
+            },
+          },
+          open: {
+            width: "50%",
+            transition: {
+              delay: 0,
+            },
+          },
+        }}
       >
         <Link href="#home">
           <a className="hover:font-bold">Home</a>
         </Link>
 
         <Link href="#aboutme">
-          <a className="hover:font-bold">About Me</a>
+          <a className="hover:font-bold whitespace-nowrap">About Me</a>
         </Link>
 
         <Link href="#skills">
@@ -35,7 +50,7 @@ const Sidebar = ({ closeModalHandler, open }: CloseModalHandlerProps) => {
         <Link href="#contact">
           <a className="hover:font-bold">Contact</a>
         </Link>
-      </div>
+      </motion.div>
     </div>
   );
 };

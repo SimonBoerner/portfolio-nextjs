@@ -27,6 +27,7 @@ module.exports = {
       palette3: "#C6B148",
       palette4: "#D16E34",
       palette5: "#F0692B",
+      palette21: "#9EABB3",
     },
   },
   plugins: [require("@beaubus/svg-patterns-for-tailwindcss")],

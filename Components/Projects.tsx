@@ -1,20 +1,18 @@
-import ProjectCard from "./ProjectCard";
-import kitchen from "../public/pics/kitchen.jpg";
-import watering from "../public/pics/watering.jpg";
+import kitchen from "../public/pics/kueche.jpg";
+import watering from "../public/pics/garden2.jpg";
 import Image from "next/image";
-import Link from "next/link";
 
 const Projects = () => {
   return (
     <div
       id="projects"
-      className="relative min-h-screen bg-palette4 bg-opacity-20 pt-40 snap-start"
+      className="relative min-h-screen bg-gradient-to-b from-palette2/30 to-palette1/30 pt-40 snap-start flex md:justify-center"
     >
       <h1 className="absolute top-20 left-6 text-2xl">[Projects]</h1>
-      <div className="flex justify-center items-center flex-col h-1/2">
+      <div className="flex justify-center md:items-stretch items-center flex-col md:flex-row md:w-3/4 md:gap-4 md:h-2/3">
         {/* Card */}
         <div className="rounded-xl border-white bg-white w-10/12 flex mb-8">
-          <div className="flex flex-col">
+          <div className="flex flex-col md:items-center">
             <div className="relative rounded-t-xl w-full h-full">
               <Image
                 src={kitchen}
@@ -24,7 +22,7 @@ const Projects = () => {
                 alt="picture of a kitchen"
               ></Image>
             </div>
-            <div className="p-5">
+            <div className="p-5 flex flex-col justify-start items-start">
               <h1 className="text-xl pb-2">Swap App</h1>
               <p className="pb-5">
                 The idea of the final project was to bring everything together
@@ -38,7 +36,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="pt-2 pb-1 px-4 border-palette2 border rounded-full">
+                <button className="pt-2 pb-1 px-4 border-palette2 border rounded-full hover:bg-palette2/10">
                   Find it on Github
                 </button>
               </a>
@@ -56,7 +54,7 @@ const Projects = () => {
                 alt="image of a watering can"
               ></Image>
             </div>
-            <div className="p-5">
+            <div className="p-5 flex flex-col justify-start items-start">
               <h1 className="text-xl pb-2">Garden Share</h1>
               <p className="pb-5">
                 We came up with the idea, that we want to build an app that
@@ -71,7 +69,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="pt-2 pb-1 px-4 border-palette2 border rounded-full">
+                <button className="pt-2 pb-1 px-4 border-palette2 border rounded-full  hover:bg-palette2/10">
                   Find it on Github
                 </button>
               </a>

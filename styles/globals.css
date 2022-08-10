@@ -5,6 +5,6 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply snap-y snap-proximity scroll-smooth;
   }
 }
