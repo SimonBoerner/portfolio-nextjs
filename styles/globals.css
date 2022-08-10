@@ -6,5 +6,6 @@
 @layer base {
   html {
     @apply snap-y snap-proximity scroll-smooth;
+    -webkit-tap-highlight-color: transparent;
   }
 }

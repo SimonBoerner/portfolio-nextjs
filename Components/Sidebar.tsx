@@ -20,15 +20,11 @@ const Sidebar = ({ closeModalHandler, open }: CloseModalHandlerProps) => {
         variants={{
           closed: {
             width: "0%",
-            transition: {
-              delay: 0,
-            },
+            transition: {},
           },
           open: {
             width: "50%",
-            transition: {
-              delay: 0,
-            },
+            transition: {},
           },
         }}
       >
