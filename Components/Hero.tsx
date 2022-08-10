@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="bg-gradient-to-b from-palette1/30 to-palette2/30 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start"
+      className="bg-gradient-to-b from-palette1/30 to-palette2/30 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none"
     >
       <motion.div
         className="w-[200px] h-[200px]"
@@ -37,7 +37,7 @@ const Hero = () => {
         ></Image>
       </motion.div>
 
-      <div className="py-10 text-center w-5/6">
+      <div className="py-10 text-center w-5/6 ">
         <h1 className="text-4xl pb-8 font-sans">
           Hi, I&apos;m <span className="text-accentblue">Simon</span>.
         </h1>

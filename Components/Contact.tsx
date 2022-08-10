@@ -11,7 +11,7 @@ const Contact = () => {
       onClick={() => setShowLangOptions(false)}
     >
       <div className="flex justify-center items-center">
-        <h1 className="absolute top-20 left-6 text-2xl text-black">
+        <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
           [Contact]
         </h1>
 

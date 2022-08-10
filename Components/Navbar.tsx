@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { AiOutlineClose } from "react-icons/ai";
 import Sidebar from "./Sidebar";
 import { motion, useScroll, useSpring } from "framer-motion";
 
@@ -25,20 +24,21 @@ const Navbar = () => {
       {isOpen ? (
         <Sidebar closeModalHandler={sidebarHandler} open={isOpen} />
       ) : null}
-      <div>
-        <div className="text-accentblue uppercase text-lg font-bold -mb-2 mt-2">
+
+      <div className="md:pl-48 whitespace-nowrap">
+        <div className="text-accentblue uppercase text-lg font-bold -mb-2 mt-2 ">
           Simon Börner
         </div>
         <div className="text-lg">Frontend Developer</div>
       </div>
 
-      <ul className="hidden md:visible md:flex md:gap-8 md:justify-end ">
+      <ul className="hidden md:visible md:flex md:gap-8 md:justify-end md:pr-48 text-xl ">
         <Link href="#home">
           <a className="hover:font-bold">Home</a>
         </Link>
 
         <Link href="#aboutme">
-          <a className="hover:font-bold">About Me</a>
+          <a className="hover:font-bold whitespace-nowrap">About Me</a>
         </Link>
 
         <Link href="#skills">
@@ -49,7 +49,7 @@ const Navbar = () => {
           <a className="hover:font-bold">Projects</a>
         </Link>
         <Link href="#contact">
-          <a className="hover:font-bold">Contact</a>
+          <a className="hover:font-bold whitespace-nowrap">Contact / CV</a>
         </Link>
       </ul>
 

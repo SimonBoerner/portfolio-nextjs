@@ -18,10 +18,12 @@ const Skillpage = () => {
   return (
     <div
       id="skills"
-      className="relative bg-gradient-to-b from-palette3/30 to-palette2/30 min-h-screen pt-40 pb-8 snap-start"
+      className="relative bg-gradient-to-b from-palette3/30 to-palette2/30 min-h-screen pt-40 pb-8 snap-start flex justify-center"
     >
-      <h1 className="absolute top-20 left-6 text-2xl">[Skills]</h1>
-      <div className="flex flex-wrap gap-3 justify-center md:justify-between mx-auto md:w-3/4 w-5/6 ">
+      <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
+        [Skills]
+      </h1>
+      <div className="flex flex-wrap gap-3 justify-center md:justify-between mx-auto md:w-3/4 w-5/6  ">
         <Skillcard icon={<SiHtml5 size={32} />} name={"HTML"} />
         <Skillcard icon={<SiCss3 size={32} />} name={"CSS"} />
         <Skillcard icon={<SiJavascript size={32} />} name={"JavaScript"} />

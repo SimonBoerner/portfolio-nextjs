@@ -44,7 +44,7 @@ const Sidebar = ({ closeModalHandler, open }: CloseModalHandlerProps) => {
           <a className="hover:font-bold">Projects</a>
         </Link>
         <Link href="#contact">
-          <a className="hover:font-bold">Contact</a>
+          <a className="hover:font-bold">Contact / CV</a>
         </Link>
       </motion.div>
     </div>
