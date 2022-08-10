@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-gradient-to-b from-palette1/30 to-black/30 relative snap-center flex flex-col justify-center items-center"
+      className="min-h-screen bg-gradient-to-b from-palette1/30 to-black/30 relative snap-start flex flex-col justify-center items-center"
       onClick={() => setShowLangOptions(false)}
     >
       <div className="flex justify-center items-center">
