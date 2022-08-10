@@ -44,7 +44,7 @@ const Aboutme = () => {
       <p className="w-5/6 md:w-4/6">
         This is just the beginning of my coding journey. There is so much more
         to learn! <br /> If you want to know more about me, you can&nbsp;
-        <a href="/#contact" className="underline">
+        <a href="/#downloadcv" className="underline">
           find my CV here!
         </a>
       </p>
