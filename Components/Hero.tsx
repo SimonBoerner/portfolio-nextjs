@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="bg-palette21 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start"
+      className="bg-gradient-to-b from-palette1/30 to-palette2/30 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start"
     >
       <motion.div
         className="w-[200px] h-[200px]"

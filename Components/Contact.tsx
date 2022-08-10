@@ -8,7 +8,7 @@ const Contact = () => {
     <div
       id="contact"
       className="min-h-screen bg-gradient-to-b from-palette1/30 to-black/30 relative snap-center flex flex-col justify-center items-center"
-      onClick={() => setShowLangOptions((showLangOptions) => !showLangOptions)}
+      onClick={() => setShowLangOptions(false)}
     >
       <div className="flex justify-center items-center">
         <h1 className="absolute top-20 left-6 text-2xl text-black">
@@ -66,7 +66,7 @@ const Contact = () => {
             <Popover.Panel className="absolute z-10">
               <div className="flex flex-col justify-evenly">
                 <a
-                  href="https://drive.google.com/file/d/1q2e7z8YrylyKkV3XqF6mTNo64fJugnag/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1UXtWCiR2hj-IozzgFtAvOemqjkoYWAnP/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className=" bg-palette2 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center mb-3 w-52"
@@ -74,7 +74,7 @@ const Contact = () => {
                   German Version
                 </a>
                 <a
-                  href="/engagement"
+                  href="https://drive.google.com/file/d/1bsf4Z6gpv43zCWo4okd7PK8qo1bEMeSJ/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="bg-palette1 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-52"
