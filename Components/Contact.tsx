@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-gradient-to-b from-palette1/30 to-black/30 relative snap-start flex flex-col justify-center items-center"
+      className="min-h-screen bg-gradient-to-b from-palette1/30 to-black/30 relative snap-end flex flex-col justify-center items-center"
       onClick={() => setShowLangOptions(false)}
     >
       <div className="flex justify-center items-center">
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="py-14">
-        <Popover className="relative" id="downloadcv">
+        <Popover className="relative">
           <Popover.Button
             onClick={() =>
               setShowLangOptions((showLangOptions) => !showLangOptions)
