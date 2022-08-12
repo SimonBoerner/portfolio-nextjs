@@ -6,14 +6,14 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="relative min-h-screen bg-gradient-to-b from-palette2/30 to-palette1/30 pt-40 snap-start flex justify-center"
+      className="relative min-h-screen bg-palette6/50 pt-40 snap-start flex justify-center"
     >
       <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
         [Projects]
       </h1>
       <div className="flex justify-center md:items-stretch items-center flex-col md:flex-row md:w-3/4 md:gap-4 md:h-2/3">
         {/* Card */}
-        <div className="rounded-xl border-white bg-white w-10/12 flex mb-8">
+        <div className="rounded-xl bg-white w-10/12 flex mb-8">
           <div className="flex flex-col md:items-center">
             <div className="relative rounded-t-xl w-full h-full">
               <Image

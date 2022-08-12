@@ -4,7 +4,7 @@ const Aboutme = () => {
   return (
     <div
       id="aboutme"
-      className="relative flex flex-col items-center justify-center pt-40 min-h-screen bg-gradient-to-b from-palette2/30 to-palette3/30 text-xl snap-start"
+      className="relative flex flex-col items-center justify-center pt-40 min-h-screen bg-palette2/50 text-xl snap-start text-black"
     >
       <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
         [About Me]
@@ -43,6 +43,8 @@ const Aboutme = () => {
         This is just the beginning of my coding journey. There is so much more
         to learn! <br />
       </p>
+
+      <p className="w-5/6 md:w-4/6"></p>
     </div>
   );
 };

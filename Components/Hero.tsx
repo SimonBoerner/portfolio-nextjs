@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <div
         id="home"
-        className="bg-gradient-to-b from-palette1/30 to-palette2/30 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none"
+        className="bg-palette1 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none text-white"
       >
         <motion.div
           className="w-[200px] h-[200px]"
@@ -40,7 +40,7 @@ const Hero = () => {
 
         <div className="py-10 text-center w-5/6 ">
           <h1 className="text-4xl pb-8 font-sans">
-            Hi, I&apos;m <span className="text-accentblue">Simon</span>.
+            Hi, I&apos;m <span className="text-white">Simon.</span>
           </h1>
           <p className="text-xl">
             A Leipzig-based Junior Frontend Developer. <br />I am currently

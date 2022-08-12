@@ -18,9 +18,9 @@ const Skillpage = () => {
   return (
     <div
       id="skills"
-      className="relative bg-gradient-to-b from-palette3/30 to-palette2/30 min-h-screen pt-40 pb-8 snap-start flex justify-center"
+      className="relative bg-accentblue/50 min-h-screen pt-40 pb-8 snap-start flex justify-center"
     >
-      <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
+      <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide text-black">
         [Skills]
       </h1>
       <div className="flex flex-wrap gap-3 justify-center md:justify-between mx-auto md:w-3/4 w-5/6  ">
