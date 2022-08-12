@@ -74,7 +74,7 @@ const Contact = () => {
                   German Version
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1bsf4Z6gpv43zCWo4okd7PK8qo1bEMeSJ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Dr2gm8YOHzMLQvPBxEAbMVJJQqyiKJ3G/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="bg-palette1 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-52"
