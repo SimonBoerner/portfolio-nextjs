@@ -18,7 +18,7 @@ const Skillpage = () => {
   return (
     <div
       id="skills"
-      className="relative bg-accentblue/50 min-h-screen pt-40 pb-8 snap-start flex justify-center"
+      className="relative bg-palette3 min-h-screen pt-40 pb-8 snap-start flex justify-center"
     >
       <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide text-black">
         [Skills]

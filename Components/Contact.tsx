@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-palette7/60 relative flex flex-col justify-center items-center"
+      className="min-h-screen bg-palette5 relative flex flex-col justify-center items-center"
       onClick={() => setShowLangOptions(false)}
     >
       <div className="flex justify-center items-center">
@@ -50,7 +50,7 @@ const Contact = () => {
             onClick={() =>
               setShowLangOptions((showLangOptions) => !showLangOptions)
             }
-            className="bg-red text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 align-middle mb-3 w-52"
+            className="bg-red/50 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 align-middle mb-3 w-52  tracking-wider"
           >
             Download CV
           </Popover.Button>
@@ -69,7 +69,7 @@ const Contact = () => {
                   href="https://drive.google.com/file/d/1UXtWCiR2hj-IozzgFtAvOemqjkoYWAnP/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
-                  className=" bg-palette2 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center mb-3 w-52"
+                  className=" bg-palette2 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center mb-3 w-52  tracking-wider"
                 >
                   German Version
                 </a>
@@ -77,7 +77,7 @@ const Contact = () => {
                   href="https://drive.google.com/file/d/1PmDKnWRp3w1EzZ48a8c-QJc94AKAfvFX/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-palette1 text-white pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-52"
+                  className="bg-palette1 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-52  tracking-wider"
                 >
                   English Version
                 </a>
