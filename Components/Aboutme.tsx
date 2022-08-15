@@ -13,7 +13,7 @@ const Aboutme = () => {
         I’ve always been fascinated by computers and doing creative things with
         them. Most of my time I was using music software (Ableton Live), because
         I love making music and sounddesign. <br /> Two years ago, my father
-        asked me rather randomly if i could build him a homepage. After a fun
+        asked me rather randomly if I could build him a homepage. After a fun
         journey through the internet in which I found out how to build websites
         with Wordpress, I decided that I want to level up my skills by learning
         how to create websites and apps from scratch.
