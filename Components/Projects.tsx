@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="relative min-h-screen bg-palette6/60 pt-40 snap-start flex justify-center"
+      className="relative min-h-screen bg-palette2/60 pt-40 snap-start flex justify-center"
     >
       <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
         [Projects]

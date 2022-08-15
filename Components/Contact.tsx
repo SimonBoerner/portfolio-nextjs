@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-palette4/20 relative flex flex-col justify-center items-center"
+      className="min-h-screen bg-palette7/60 relative flex flex-col justify-center items-center"
       onClick={() => setShowLangOptions(false)}
     >
       <div className="flex justify-center items-center">
