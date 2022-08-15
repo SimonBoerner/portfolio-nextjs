@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <div
         id="home"
-        className="bg-palette1 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none"
+        className="bg-palette1 relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none drop-shadow-md"
       >
         <motion.div
           className="w-[200px] h-[200px]"
@@ -33,7 +33,7 @@ const Hero = () => {
             layout="intrinsic"
             height={250}
             width={250}
-            className="rounded-full select-none drop-shadow-md p-10"
+            className="rounded-full select-none p-10"
             alt="a picture of my face"
           ></Image>
         </motion.div>
