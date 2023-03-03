@@ -4,7 +4,7 @@ const Aboutme = () => {
   return (
     <div
       id="aboutme"
-      className="relative flex flex-col items-center justify-center pt-40 min-h-screen bg-palette2 text-xl snap-start text-black pb-8"
+      className="relative flex flex-col items-center justify-center pt-40 min-h-screen bg-gradient-to-l from-palette2 to-palette1 text-xl snap-start text-black pb-8"
     >
       <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
         [About Me]
