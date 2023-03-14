@@ -57,7 +57,7 @@ const Hero = () => {
           </h1>
           <p className="text-3xl drop-shadow-md">
             A Leipzig-based Junior Frontend Developer. <br />I am currently
-            looking for a job. Feel free to contact me!
+            looking for a job!
           </p>
         </div>
 
