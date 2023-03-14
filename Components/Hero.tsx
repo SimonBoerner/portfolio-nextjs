@@ -1,5 +1,4 @@
 import Image from "next/image";
-import headshot from "../public/pics/headshot2.jpg";
 import avatar from "../public/pics/sticker8.webp";
 
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
@@ -8,9 +7,21 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
+      <video
+        muted
+        autoPlay
+        loop
+        className="fixed min-h-full w-screen top-0 left-0 object-cover"
+      >
+        <source
+          src="https://assets.mixkit.co/videos/preview/mixkit-fluid-acid-trip-shapes-in-motion-30855-large.mp4"
+          type="video/mp4"
+        ></source>
+        Your browser does not support the video tag.
+      </video>
       <div
         id="home"
-        className="from-palette1 to-palette2 bg-gradient-to-l relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none drop-shadow-md"
+        className=" relative min-h-screen flex flex-col items-center justify-center xs:pt-20 snap-start select-none drop-shadow-md"
       >
         <motion.div
           className="w-[200px] h-[200px]"
@@ -33,16 +44,18 @@ const Hero = () => {
           <Image
             src={avatar}
             layout="intrinsic"
-            height={250}
-            width={250}
-            className="rounded-full select-none p-20 overflow-visible bg-accentblue"
+            height={300}
+            width={300}
+            className="rounded-full select-none p-20 overflow-visible"
             alt="a picture of my face"
           ></Image>
         </motion.div>
 
-        <div className="py-10 text-center w-5/6 ">
-          <h1 className="text-4xl pb-8 font-sans">Hi, I&apos;m Simon.</h1>
-          <p className="text-3xl">
+        <div className="py-10 text-center w-5/6 text-white">
+          <h1 className="text-4xl pb-8 font-sans drop-shadow-md">
+            Hi, I&apos;m Simon.
+          </h1>
+          <p className="text-3xl drop-shadow-md">
             A Leipzig-based Junior Frontend Developer. <br />I am currently
             looking for a job. Feel free to contact me!
           </p>
