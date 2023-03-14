@@ -11,7 +11,7 @@ const Hero = () => {
         muted
         autoPlay
         loop
-        className="fixed min-h-full w-screen top-0 left-0 object-cover"
+        className="fixed min-h-screen w-screen top-0 left-0 object-cover"
       >
         <source
           src="https://assets.mixkit.co/videos/preview/mixkit-fluid-acid-trip-shapes-in-motion-30855-large.mp4"
