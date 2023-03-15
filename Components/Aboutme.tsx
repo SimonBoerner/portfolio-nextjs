@@ -34,8 +34,8 @@ const Aboutme = () => {
         &nbsp;It was the perfect kickstart. There I learned the fundamental
         technologies and concepts of modern webdesign and got a good idea how to
         use them. The technologies and tools we were learning are listed on the
-        page below. I'm not an expert of these technologies, but I am willing to
-        become one!
+        page below. Of course I'm not yet an expert of these technologies, but I
+        am willing to become one soon.
       </p>
 
       <p className="w-5/6 md:w-4/6 pb-4">
