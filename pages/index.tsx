@@ -8,7 +8,7 @@ import Contact from "../Components/Contact";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="font-manrope">
       <Hero />
       <Aboutme />
       <Skillpage />

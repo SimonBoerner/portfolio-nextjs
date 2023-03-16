@@ -16,6 +16,7 @@ module.exports = {
     fontFamily: {
       sans: ["Josefin Sans", "sans-serif"],
       PARAGRAPH: ["Josefin Slab", "serif"],
+      manrope: ["Manrope", "sans-serif"],
     },
     colors: {
       accentblue: "#157698",

@@ -52,8 +52,8 @@ const Hero = () => {
         </motion.div>
 
         <div className="py-10 text-center w-5/6 text-white">
-          <h1 className="text-4xl pb-8 font-sans drop-shadow-md">
-            Hi, I&apos;m Simon.
+          <h1 className="text-4xl pb-8 drop-shadow-md">
+            Hi, I&apos;m <span className="opacity-100 text-white">Simon.</span>
           </h1>
           <p className="text-3xl drop-shadow-md">
             A Leipzig-based Junior Frontend Developer. <br />I am currently
