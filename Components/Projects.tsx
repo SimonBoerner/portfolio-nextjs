@@ -36,7 +36,7 @@ const Projects = () => {
               </p>
               <Link href="https://github.com/devhausleipzig/camp5-final-project">
                 <a target="_blank" rel="noreferrer">
-                  <button className="pt-2 pb-1 px-4 border-palette6 border rounded-full  hover:bg-palette6 hover:text-white">
+                  <button className="pt-1 pb-1 px-4 border-palette6 border rounded-full  hover:bg-palette6 hover:text-white">
                     Show Github Repo
                   </button>
                 </a>
@@ -69,7 +69,7 @@ const Projects = () => {
               <div className="flex flex-wrap sm:gap-3">
                 <Link href="https://umsonst.vercel.app/">
                   <a target="_blank" rel="noopener noreferrer">
-                    <button className=" pt-2 pb-1 px-4 border border-palette6 rounded-full hover:bg-palette6 hover:text-white">
+                    <button className=" pt-1 pb-1 px-4 border border-palette6 rounded-full hover:bg-palette6 hover:text-white">
                       Visit the app
                     </button>
                   </a>
