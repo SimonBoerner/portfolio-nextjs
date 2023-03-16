@@ -16,7 +16,7 @@ const Navbar = () => {
     restDelta: 0.001,
   });
   return (
-    <div className="fixed w-screen flex justify-between items-center px-4 border-b-2 border-black border-solid border-opacity-20 shadow-lg bg-white/90 backdrop-blur-xl z-40">
+    <div className="font-manrope fixed w-screen flex justify-between items-center px-4 border-b-2 border-black border-solid border-opacity-20 shadow-lg bg-white/90 backdrop-blur-xl z-40">
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-accentblue origin-left"
         style={{ scaleX }}
@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="text-accentblue uppercase text-lg font-bold -mb-2 mt-2 ">
           Simon Börner
         </div>
-        <div className="text-lg">Frontend Developer</div>
+        <div className="text-lg">FRONTEND DEVELOPER</div>
       </div>
 
       <ul className="hidden md:visible md:flex md:gap-8 md:justify-end md:pr-48 text-xl ">
