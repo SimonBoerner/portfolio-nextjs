@@ -15,15 +15,15 @@ const Aboutme = () => {
       </p>
       <p className="w-5/6 md:w-4/6 pb-4">
         Everything started two years ago, when my father asked me if I could
-        build him a homepage. Back then I had zero knowledge of anything
-        webdesign-related. But after a fun journey through the internet in which
-        I found out how to build websites with Wordpress, I decided that I want
+        build him a homepage. Back then, I had zero knowledge of anything
+        webdesign related. But after a fun journey through the internet in which
+        I found out how to build websites with WordPress, I decided that I want
         to level up my skills by learning how to create websites and apps from
         scratch. And so I did!
       </p>
 
       <p className="w-5/6 md:w-4/6 pb-4">
-        In July 22 I finished the 23-Weeks&nbsp;
+        Last year I finished the 23-Weeks&nbsp;
         <a
           href="https://devhausleipzig.de/de"
           target="_blank"
@@ -32,14 +32,14 @@ const Aboutme = () => {
         >
           “Code & Design Camp” at the DevHaus Leipzig.
         </a>
-        &nbsp;It was the perfect kickstart. I learned the fundamental
+        &nbsp;It was the perfect kick-start. I learned the fundamental
         technologies and concepts of modern webdesign and got a good idea how to
         use them. The technologies and tools we were learning are listed on the
         page below.
       </p>
 
       <p className="w-5/6 md:w-4/6 pb-4">
-        This is just beginning of my coding journey and I am excited to move on
+        This is just beginning of my coding journey, and I am excited to move on
         in a professional and supportive environment.
         <br />
       </p>

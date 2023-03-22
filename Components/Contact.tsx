@@ -50,7 +50,7 @@ const Contact = () => {
             onClick={() =>
               setShowLangOptions((showLangOptions) => !showLangOptions)
             }
-            className="bg-red/50 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 align-middle mb-3 w-52  tracking-wider"
+            className="bg-red pt-3 pb-3 px-8 rounded-full whitespace-nowrap opacity-100 hover:bg-opacity-90 align-middle mb-3 w-52  tracking-wider"
           >
             Download CV
           </Popover.Button>
