@@ -16,11 +16,7 @@ const Contact = () => {
         </h1>
 
         <div className="flex gap-9">
-          <a
-            href="https://github.com/SimonBoerner"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/smnbnr" target="_blank" rel="noreferrer">
             <AiOutlineGithub
               size={80}
               className="hover:text-white transition-all duration-700"
