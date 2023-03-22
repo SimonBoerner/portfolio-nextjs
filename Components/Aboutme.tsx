@@ -39,7 +39,7 @@ const Aboutme = () => {
       </p>
 
       <p className="w-5/6 md:w-4/6 pb-4">
-        This is just beginning of my coding journey, and I am excited to move on
+        This is the beginning of my coding journey, and I am excited to move on
         in a professional and supportive environment.
         <br />
       </p>
