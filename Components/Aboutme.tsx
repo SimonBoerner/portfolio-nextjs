@@ -9,10 +9,7 @@ const Aboutme = () => {
       <h1 className="absolute top-20 md:mx-auto text-3xl tracking-wide">
         [About Me]
       </h1>
-      <p className="w-5/6 md:w-4/6 pb-4">
-        I’ve always been fascinated by computers and doing creative things with
-        them.
-      </p>
+
       <p className="w-5/6 md:w-4/6 pb-4">
         Everything started two years ago, when my father asked me if I could
         build him a homepage. Back then, I had zero knowledge of anything
@@ -40,7 +37,7 @@ const Aboutme = () => {
 
       <p className="w-5/6 md:w-4/6 pb-4">
         This is the beginning of my coding journey, and I am excited to move on
-        in a professional and supportive environment.
+        in a professional environment.
         <br />
       </p>
     </div>
