@@ -36,7 +36,7 @@ const Hero = () => {
               scale: 1,
               opacity: 1,
               transition: {
-                delay: 0.1,
+                delay: 0.0,
               },
             },
           }}
