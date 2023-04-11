@@ -62,7 +62,7 @@ const Contact = () => {
             <Popover.Panel className="absolute z-10">
               <div className="flex flex-col justify-evenly">
                 <a
-                  href="https://drive.google.com/file/d/1UXtWCiR2hj-IozzgFtAvOemqjkoYWAnP/view?usp=sharing"
+                  href="https://drive.google.com/uc?export=download&id=1jHFDAWIBAkyJeIJEO395ljhTYnxzy1Dz"
                   target="_blank"
                   rel="noreferrer"
                   className=" bg-palette2 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center mb-3 w-52  tracking-wider"
@@ -70,7 +70,7 @@ const Contact = () => {
                   German Version
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1PmDKnWRp3w1EzZ48a8c-QJc94AKAfvFX/view?usp=sharing"
+                  href="https://drive.google.com/uc?export=download&id=1PmDKnWRp3w1EzZ48a8c-QJc94AKAfvFX"
                   target="_blank"
                   rel="noreferrer"
                   className="bg-palette1 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-52  tracking-wider"
