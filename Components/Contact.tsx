@@ -40,48 +40,6 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div id="downloadcv" className="py-14">
-        <Popover className="relative">
-          <Popover.Button
-            onClick={() =>
-              setShowLangOptions((showLangOptions) => !showLangOptions)
-            }
-            className="bg-red pt-3 pb-3 px-8 rounded-full whitespace-nowrap opacity-100 hover:bg-opacity-90 align-middle mb-3 w-52  tracking-wider"
-          >
-            Download CV
-          </Popover.Button>
-          <Transition
-            show={showLangOptions}
-            enter="transition-opacity duration-75"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="transition-opacity duration-150"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <Popover.Panel className="absolute z-10">
-              <div className="flex flex-col justify-evenly">
-                <a
-                  href="https://drive.google.com/uc?export=download&id=1jHFDAWIBAkyJeIJEO395ljhTYnxzy1Dz"
-                  target="_blank"
-                  rel="noreferrer"
-                  className=" bg-palette2 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center mb-3 w-52  tracking-wider"
-                >
-                  German Version
-                </a>
-                <a
-                  href="https://drive.google.com/uc?export=download&id=1PmDKnWRp3w1EzZ48a8c-QJc94AKAfvFX"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="bg-palette1 pt-4 pb-3 px-8 rounded-full whitespace-nowrap hover:bg-opacity-90 text-center w-52  tracking-wider"
-                >
-                  English Version
-                </a>
-              </div>
-            </Popover.Panel>
-          </Transition>
-        </Popover>
-      </div>
     </div>
   );
 };
